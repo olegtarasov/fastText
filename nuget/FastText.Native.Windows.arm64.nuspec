@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>FastText.Native.Windows.Arm64</id>
+        <version>$version$</version>
+        <title>FastText binary with C API for arm64 Windows.</title>
+        <authors>Oleg Tarasov</authors>
+        <owners>Oleg Tarasov</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Unofficial build of Facebook's FastText library for Windows with C-style API.</description>
+        <summary />
+        <copyright></copyright>
+        <contentFiles>
+            <files include="any/any/fasttext_arm64.dll" buildAction="None" copyToOutput="true" />
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="..\build\Release\fasttext_arm64.dll" target="contentFiles\any\any" />
+    </files>
+</package>
